@@ -12,7 +12,7 @@ class App extends React.Component {
 		}
 		this.handleChange = this.handleChange.bind(this)
 	}
-
+  
 	handleChange(id) {
 		this.setState(prevState => {
 			const updated = prevState.todos.map(todo => {
